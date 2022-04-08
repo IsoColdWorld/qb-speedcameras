@@ -49,15 +49,31 @@ end
 --Blips
 local blips = {
 	-- 60KM/H ZONES
-	{title="Speedcamera (60KM/H)", colour=1, id=1, x = -524.2645, y = -1776.3569, z = 21.3384},
+	{title="Speedcamera (40MP/H)", colour=1, id=184, x = -524.2645, y = -1776.3569, z = 21.3384},
+	{title="Speedcamera (40MP/H)", colour=1, id=184, x = -278.17, y = -1430.68, z = 30.93},
+	{title="Speedcamera (40MP/H)", colour=1, id=184, x = -24.08, y = -1605.89, z = 28.87},
+	{title="Speedcamera (40MP/H)", colour=1, id=184, x = 171.12, y = -1600.97, z = 28.92},
+	{title="Speedcamera (40MP/H)", colour=1, id=184, x = -38.78, y = -1824.89, z = 25.79},
 	
 	-- 80KM/H ZONES
-	{title="Speedcamera (80KM/H)", colour=1, id=1, x = 2506.0671, y = 4145.2431, z = 38.1054}, 
+	{title="Speedcamera (50MP/H)", colour=1, id=184, x = 2506.0671, y = 4145.2431, z = 38.1054}, 
 	
-	-- 120KM/H ZONES
-	{title="Speedcamera (120KM/H)", colour=1, id=1, x = 1584.9281, y = -993.4557, z = 59.3923},
-	{title="Speedcamera (120KM/H)", colour=1, id=1, x = 2442.2006, y = -134.6004, z = 88.7765},
-	{title="Speedcamera (120KM/H)", colour=1, id=1, x = 2871.7951, y = 3540.5795, z = 53.0930}
+	-- 75MP/H ZONES
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 1584.9281, y = -993.4557, z = 59.3923},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2442.2006, y = -134.6004, z = 88.7765},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2871.7951, y = 3540.5795, z = 53.0930},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = -2612.17, y = 3002.42, z = 16.18},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = -1499.0, y = 5009.24, z = 62.37},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = -76.02, y = 6297.16, z = 30.89},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2303.55, y = 5854.92, z = 47.26},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2871.7951, y = 3540.5795, z = 53.0930},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2624.15, y = 5110.64, z = 44.43},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 229.2, y = 3505.87, z = 40.08},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 2790.22, y = 4408.67, z = 48.56},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 825.58, y = 2234.56, z = 48.5},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = -658.53, y = -516.72, z = 24.73},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = -669.12, y = -2150.96, z = 47.4},
+	{title="Speedcamera (75MP/H)", colour=1, id=184, x = 937.32, y = -2599.25, z = 47.71},
 }
 
 Citizen.CreateThread(function()
